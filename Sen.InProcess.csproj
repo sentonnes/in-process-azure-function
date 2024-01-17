@@ -5,6 +5,7 @@
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="Elastic.Apm.Azure.Functions" Version="1.25.3" />
+        <PackageReference Include="Microsoft.Extensions.Options" Version="5.0.0" />
         <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.2.0" />
     </ItemGroup>
     <ItemGroup>
