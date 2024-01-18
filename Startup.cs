@@ -29,8 +29,8 @@ internal class Startup : FunctionsStartup
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"An error occurred: {ex.Message}");
-            return $"An error occurred: {ex.Message}";
+            Console.WriteLine($"An error occurred: {ex}");
+            return $"An error occurred: {ex}";
         }
     }
 
